@@ -1,0 +1,41 @@
+To run this project, you need to have Node.js and Python installed.
+
+**1. Backend Setup:**
+
+Navigate to the `backend` directory and install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the backend server:
+
+```bash
+python server.py
+```
+
+**2. Frontend Setup:**
+
+Navigate to the `frontend` directory and install the dependencies:
+
+```bash
+npm install
+```
+
+Run the frontend development server:
+
+```bash
+npm run dev
+```
+
+**3. Access the Application:**
+
+Open your web browser and go to the address where the frontend is being served (usually `http://localhost:3000` or similar).
+
+**Optional: Generate Dummy Data**
+
+If you need to generate dummy data for testing, you can use the provided script. Make sure the backend is running, then execute the script from the project root:
+
+```bash
+./scripts/generate_dummy_data.sh
+```
